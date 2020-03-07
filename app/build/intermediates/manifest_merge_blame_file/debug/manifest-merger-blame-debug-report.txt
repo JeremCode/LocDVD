@@ -1,0 +1,58 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.locdvd"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:7:5-66
+11-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:7:22-64
+12
+13    <application
+13-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:9:5-31:19
+14        android:allowBackup="true"
+14-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:10:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.0.2] /Users/jeremy/.gradle/caches/transforms-2/files-2.1/ba54bd1790a9b49ddcc5f574b2dd4779/core-1.0.2/AndroidManifest.xml:22:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:11:9-43
+18        android:label="@string/app_name"
+18-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:12:9-41
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:13:9-40
+21        <activity
+21-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:16:9-23:20
+22            android:name="com.example.locdvd.MainActivity"
+22-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:17:13-41
+23            android:label="@string/app_name" >
+23-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:18:13-45
+24            <intent-filter>
+24-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:19:13-22:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:20:17-69
+25-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:20:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:21:17-77
+27-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:21:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.example.locdvd.ViewDVDFragment" >
+30-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:25:9-26:20
+30-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:25:19-50
+31        </activity>
+32        <activity android:name="com.example.locdvd.AddDVDActivity" >
+32-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:28:9-30:20
+32-->/Users/jeremy/AndroidStudioProjects/LocDVD/app/src/main/AndroidManifest.xml:28:19-49
+33        </activity>
+34    </application>
+35
+36</manifest>
